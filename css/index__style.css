@@ -1,10 +1,164 @@
 ﻿*{  
     box-sizing: border-box;
     margin: 0;
-    padding: 0;}
+    padding: 0;
+}
 
 body{ 
-    background: #f6f9fc;}
+    background: #f6f9fc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.craftwork-wrapper{
+    width: 100%;
+}
+
+.header-wrapper{
+    
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    height: 800px;
+}
+
+.header__menu-backgroundtransparency{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 100%; 
+    overflow-y: hidden;
+}
+
+.header__menu{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-top: 40px;
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+}
+
+ .header__logo {
+    flex: 1 0 40%;
+    text-align: center;
+    padding: 20px 20px;
+} 
+
+.header__menu-left{
+    flex: 1 0 30%;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.header__menu-right{
+    flex: 1 0 30%;
+    text-align: right;
+     
+}
+
+.menu__item{
+    margin: 10px;
+    display: inline-block;
+}
+
+.menu__item-appbutton{
+    background-color: rgba(50, 50, 200, 1);
+    padding: 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    cursor:default;
+}
+
+.menu__item-appbutton:hover{
+    background-color: rgba(0, 200, 0, 1); 
+           
+}
+
+.menu__item:hover{
+    color: silver;
+    cursor:default;
+}
+
+.header__article{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 80%;
+    height: 100%;
+}
 
 
- 
+.article-caption{
+     text-align: center;
+     font-family: 'Varela Round', sans-serif; 
+     font-size: 48px;
+}
+
+.article-text{
+    font-family: 'Lato', sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    color: slategray;
+}
+
+.watchvideo-button{
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;  
+    border: 1px solid  rgba(0, 0, 0, 0.2);;
+    width: 160px;
+    font-family: 'Varela Round', sans-serif;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 20px 20px 20px 20px;
+    color: black; 
+    cursor:default;
+}
+
+.watchvideo-button:hover{
+    background-color: rgba(200, 200, 200, 0.5); 
+
+}
+.article-image{
+     display: block;
+     margin-top: 2%;
+     margin-left: auto;
+     margin-right: auto; 
+     z-index: 0;
+}
+.main-wrapper{
+    width: 100%;
+    height: 800px;
+}
+.main__features{
+    display: flex;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 80%;
+    
+    z-index: 1;
+    padding: 20px;
+}
+
+.features__left{
+   flex: 1 0 50%;
+   margin: 20px; 
+}
+  
+ .features__right{
+   flex: 1 0 50%;
+   margin: 20px;
+}
+
+.text--center{
+    text-align: center;
+}
+
+.article-p{
+    margin-top: 20px;
+}
+
+.text--sizeendcolor{
+   font-size: 24px;
+   color: black; 
+}
